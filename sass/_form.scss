@@ -1,0 +1,62 @@
+.box-left__card {
+  background-color: #24221f;
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.box-left__card__login {
+  &__title {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+
+    &__text {
+      color: white;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+}
+
+.box-mail {
+  display: flex;
+  border: 4px #ffc632 solid;
+  border-radius: 4px;
+}
+
+.box-password {
+  display: flex;
+  border: 4px #ffc632 solid;
+  border-radius: 4px;
+}
+
+.box-left__card__forgot {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+
+  &__check {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.bg-color {
+  background-color: #ffc632;
+  border-radius: 6px;
+  color: black;
+  text-transform: uppercase;
+}
+
+input {
+  background-color: transparent;
+}

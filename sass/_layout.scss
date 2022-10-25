@@ -1,0 +1,18 @@
+.father {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.box-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  z-index: 3;
+  margin-top: 40px;
+  margin-left: 40px;
+}

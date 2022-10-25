@@ -1,0 +1,129 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  width: 1920;
+  max-height: 993px;
+}
+
+.box-left {
+  background-color: #191816;
+  width: 50%;
+}
+
+.box-right {
+  width: 50%;
+}
+
+.father {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.box-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  z-index: 3;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.box-left__card {
+  background-color: #24221f;
+  width: 80%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 40px 0;
+}
+
+.box-left__card__login__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.box-left__card__login__title__text {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.box-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 4px #ffc632 solid;
+  border-radius: 4px;
+}
+
+.box-password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 4px #ffc632 solid;
+  border-radius: 4px;
+}
+
+.box-left__card__forgot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+}
+
+.box-left__card__forgot__check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-color {
+  background-color: #ffc632;
+  border-radius: 6px;
+  color: black;
+  text-transform: uppercase;
+}
+
+input {
+  background-color: transparent;
+}
+/*# sourceMappingURL=styles.css.map */
